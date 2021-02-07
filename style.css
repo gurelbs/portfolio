@@ -475,9 +475,18 @@ nav div ul li .fa-phone{
     transform: scale(1.05) translate(2vh,0);
   }
 } 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
   .cards-grid {
     grid-template-columns: repeat(1,1fr);
+  }
+  .flip-card {
+    width: 90vw;
+    height: 50vh;
+  }
+  .cards-grid img {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 10px;
   }
 }
 @media only screen and (max-width: 501px){
