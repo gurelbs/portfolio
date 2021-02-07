@@ -227,6 +227,7 @@ nav div ul li .fa-phone{
   text-align: center;
   transition: transform 0.4s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   border-radius: 10px;
 }
 .flip-card:hover .flip-card-inner {
