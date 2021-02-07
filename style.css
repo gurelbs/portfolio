@@ -475,7 +475,7 @@ nav div ul li .fa-phone{
     transform: scale(1.05) translate(2vh,0);
   }
 }
-@media (max-width: 900px){
+@media only screen and (max-width: 501px){
   section{
     height: auto;
     min-height: 100vh;
