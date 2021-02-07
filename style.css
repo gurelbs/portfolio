@@ -131,7 +131,7 @@ nav{
   z-index: 3;
   animation: fadeInTopNav 2s ease-in-out both;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   top: 0;
   display: flex;
   justify-content: space-between;
