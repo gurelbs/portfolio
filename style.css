@@ -474,6 +474,11 @@ nav div ul li .fa-phone{
   50%{
     transform: scale(1.05) translate(2vh,0);
   }
+} 
+@media only screen and (max-width: 768px){
+  .cards-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 @media only screen and (max-width: 501px){
   section{
